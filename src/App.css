@@ -1,5 +1,9 @@
 .App {
+  background-color: #282c34;
+  color: white;
+  font-size: calc(10px + 2vmin);
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -9,25 +13,69 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    padding-top: 2rem;
+    margin: auto;
+    width: 66%;
 }
 
-.App-link {
-  color: #61dafb;
+.bill {
+    align-items: center;
+    display: flex;
+    justify-content: stretch;
+    margin: 0.5rem;
+    padding: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bill:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.1);
 }
+
+.textmode__field {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.textmode__label {
+    font-family: monospace;
+    font-size: 1rem;
+}
+
+.textmode__switch {
+}
+
+.bill__title {
+    flex: 1;
+    text-align: left;
+}
+
+.bill__price {
+    flex: 1;
+    text-align: center;
+}
+
+.bill__link {
+    flex: 1;
+    text-align: right;
+}
+
+.bill__link a,
+.bill__link a:visited {
+    color: white;
+}
+
+.bill__link a:hover {
+    color: cyan;
+}
+
+.bill__textfield {
+    border: none;
+    display: block;
+    font-size: calc(10px + 2vmin);
+    margin: 0.5rem;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+
