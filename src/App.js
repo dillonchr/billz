@@ -3,7 +3,8 @@ import './App.css';
 import bills from './bills';
 import Switch from 'react-ios-switch';
 
-const paycheckToShow = (new Date().getDate() >= 12) + 1;
+const todaysDate = new Date().getDate();
+const paycheckToShow = (todaysDate < 12 || todaysDate > 29) + 1;
 
 function toMoney(price) {
     return `$${price.toFixed(2)}`;
