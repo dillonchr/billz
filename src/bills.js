@@ -1,5 +1,11 @@
 const bills = [
     {
+        name: 'Cox',
+        price: 83.99,
+        autoPay: 1,
+        paycheck: 2,
+    },
+    {
         name: 'Github',
         price: 7,
         autoPay: 1,
