@@ -61,14 +61,12 @@ const bills = [
     price: 11.99,
     autoPay: 1,
     paycheck: 1,
-    isCherry: 1,
   },
   {
     name: 'Netflix',
     price: 12.99,
     autoPay: 1,
     paycheck: 2,
-    isCherry: 1,
   },
   {
     name: 'State Farm',
