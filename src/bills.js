@@ -31,6 +31,12 @@ const bills = [
     paycheck: 2,
   },
   {
+    name: 'VidAngel',
+    price: 9.99,
+    autoPay: 1,
+    paycheck: 2,
+  },
+  {
     name: 'Water',
     priceEstimate: 60,
     autoPay: 0,
