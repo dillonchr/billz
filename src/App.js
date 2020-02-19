@@ -43,7 +43,7 @@ function Bill({name, price, priceEstimate, url}) {
 
 function getBillsForPaycheck(component) {
   return bills
-    .filter(({ paycheck, isCherry }) => !isCherry && paycheck === paycheckToShow)
+    .filter(({ paycheck }) =>  paycheck === paycheckToShow)
     .map(component);
 }
 
