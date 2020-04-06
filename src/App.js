@@ -19,14 +19,17 @@ function BillLink({url}) {
   return <a href={url} rel="noopener noreferrer" target="_blank">Pay</a>;
 }
 
-function BillEntry({name, price, priceEstimate}) {
+function BillEntry({name, price}) {
+  const amount = price ?
+    price + 0.0 :
+    '??';
   return (
     <input
       className="bill__textfield"
       key={name}
       readOnly
       type="text"
-      value={`${(price || priceEstimate)+0.0}, ${name}`}
+      value={`${amount}, ${name}`}
     />
   );
 }
