@@ -37,6 +37,12 @@ const bills = [
     paycheck: 2,
   },
   {
+    name: 'Disney+',
+    price: 6.99,
+    autoPay: 1,
+    paycheck: 2,
+  },
+  {
     name: 'Water',
     priceEstimate: 60,
     autoPay: 0,
@@ -87,8 +93,8 @@ const bills = [
     paycheck: 1,
   },
   {
-    name: 'Silver Car',
-    price: 437.67,
+    name: 'Blue Car',
+    price: 359.86,
     autoPay: 0,
     paycheck: 1,
   },
