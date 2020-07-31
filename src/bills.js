@@ -1,120 +1,126 @@
 const bills = [
   {
-    name: 'Cox',
+    name: "Cox",
     price: 83.99,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'Github',
-    price: 7,
+    name: "Github",
+    price: 4,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'House',
+    name: "House",
     price: 970.79,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'Gas',
+    name: "Gas",
     priceEstimate: 50,
     autoPay: 1,
     paycheck: 2,
-    url: 'https://www.oklahomanaturalgas.com/',
+    url: "https://www.oklahomanaturalgas.com/"
   },
   {
-    name: 'Ipsy',
+    name: "Ipsy",
     price: 27.23,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'VidAngel',
+    name: "VidAngel",
     price: 9.99,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'Disney+',
+    name: "Disney+",
     price: 6.99,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'Water',
+    name: "Water",
     priceEstimate: 60,
     autoPay: 0,
-    url: 'https://www.municipalonlinepayments.com/bixbyok/utilities',
-    paycheck: 2,
+    url: "https://www.municipalonlinepayments.com/bixbyok/utilities",
+    paycheck: 2
   },
   {
-    name: 'Electric',
+    name: "Electric",
     priceEstimate: 100,
     autoPay: 0,
-    url: 'https://psoklahoma.com/account/bills/',
-    paycheck: 2,
+    url: "https://psoklahoma.com/account/bills/",
+    paycheck: 2
   },
   {
-    name: 'Google Play',
+    name: "Google Play",
     price: 14.99,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'DigitalOcean',
-    price: 10.7,
+    name: "DigitalOcean",
+    price: 20.7,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'Hulu',
+    name: "Hulu",
     price: 11.99,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 1
   },
   {
-    name: 'Netflix',
+    name: "Netflix",
     price: 12.99,
     autoPay: 1,
-    paycheck: 2,
+    paycheck: 2
   },
   {
-    name: 'State Farm',
+    name: "State Farm",
     price: 138.02,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 1
   },
   {
-    name: 'Red Car',
-    price: 434.43,
-    autoPay: 0,
-    paycheck: 1,
-  },
-  {
-    name: 'Blue Car',
+    name: "Blue Car",
     price: 359.86,
     autoPay: 0,
-    paycheck: 1,
+    paycheck: 1
   },
   {
-    name: 'Trash',
+    name: "Trash",
     price: 19,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 1
   },
   {
-    name: 'Vivint Service',
+    name: "Vivint Service",
     price: 44.99,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 1
   },
   {
-    name: 'Vivint Equipment',
+    name: "Vivint Equipment",
     price: 26.92,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 1
+  },
+  {
+    name: "Walmart Delivery Pass",
+    price: 12.95,
+    autoPay: 1,
+    paycheck: 1
+  },
+  {
+    name: "Dashpass",
+    price: 9.99,
+    autoPay: 1,
+    paycheck: 1
   }
 ];
 
