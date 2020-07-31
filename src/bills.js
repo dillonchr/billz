@@ -121,6 +121,12 @@ const bills = [
     price: 9.99,
     autoPay: 1,
     paycheck: 1
+  },
+  {
+    name: "Arlo Smart",
+    price: 9.99,
+    autoPay: 1,
+    paycheck: 1
   }
 ];
 
