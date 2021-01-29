@@ -115,6 +115,12 @@ const bills = [
     paycheck: 2
   },
   {
+    name: "BarkBox",
+    autoPay: 1,
+    paycheck: 2,
+    price: 27.23
+  },
+  {
     name: "DigitalOcean",
     price: 15.7,
     autoPay: 1,
