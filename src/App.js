@@ -32,7 +32,7 @@ function BillEntry({ budget, name, price }) {
       key={name}
       readOnly
       type="text"
-      value={`${budget ? "budget " : ""} ${amount}, ${name}`}
+      value={`${budget ? "budget " : ""}${amount}, ${name}`}
     />
   );
 }
