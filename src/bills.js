@@ -31,6 +31,12 @@ const bills = [
     paycheck: 2
   },
   {
+    name: "Chewy",
+    price: 46.5,
+    autoPay: 1,
+    paycheck: 1
+  },
+  {
     name: "VidAngel",
     price: 9.99,
     autoPay: 1,
@@ -41,6 +47,52 @@ const bills = [
     price: 6.99,
     autoPay: 1,
     paycheck: 2
+  },
+  {
+    name: "Sapulpa Times",
+    price: 9.99,
+    autoPay: 1,
+    paycheck: 2,
+    budget: 1
+  },
+  {
+    name: "Tulsa World",
+    price: 10.99,
+    autoPay: 1,
+    paycheck: 1,
+    budget: 1
+  },
+  {
+    name: "New York Times",
+    price: 4,
+    autoPay: 1,
+    paycheck: 1,
+    budget: 1
+  },
+  {
+    name: "Wall Street Journal",
+    price: 44.99,
+    autoPay: 1,
+    paycheck: 2,
+    budget: 1
+  },
+  {
+    name: "Instacart Express",
+    price: 9.99,
+    autoPay: 1,
+    paycheck: 2
+  },
+  {
+    name: "New England Coffee",
+    price: 33.16,
+    autoPay: 1,
+    paycheck: 1
+  },
+  {
+    name: "Adobe InDesign",
+    price: 20.99,
+    autoPay: 1,
+    paycheck: 1
   },
   {
     name: "Water",
@@ -57,14 +109,14 @@ const bills = [
     paycheck: 2
   },
   {
-    name: "Google Play",
+    name: "YouTube Premium",
     price: 14.99,
     autoPay: 1,
     paycheck: 2
   },
   {
     name: "DigitalOcean",
-    price: 20.7,
+    price: 15.7,
     autoPay: 1,
     paycheck: 2
   },
@@ -94,7 +146,7 @@ const bills = [
   },
   {
     name: "Trash",
-    price: 19,
+    price: 21,
     autoPay: 1,
     paycheck: 1
   },
@@ -107,18 +159,6 @@ const bills = [
   {
     name: "Vivint Equipment",
     price: 26.92,
-    autoPay: 1,
-    paycheck: 1
-  },
-  {
-    name: "Walmart Delivery Pass",
-    price: 12.95,
-    autoPay: 1,
-    paycheck: 1
-  },
-  {
-    name: "Dashpass",
-    price: 9.99,
     autoPay: 1,
     paycheck: 1
   },

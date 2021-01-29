@@ -24,7 +24,7 @@ function BillLink({ url }) {
   );
 }
 
-function BillEntry({ name, price }) {
+function BillEntry({ budget, name, price }) {
   const amount = price ? price + 0.0 : "??";
   return (
     <input
@@ -32,14 +32,14 @@ function BillEntry({ name, price }) {
       key={name}
       readOnly
       type="text"
-      value={`${amount}, ${name}`}
+      value={`${budget ? "budget " : ""} ${amount}, ${name}`}
     />
   );
 }
 
-function Bill({ name, price, priceEstimate, url }) {
+function Bill({ budget, name, price, priceEstimate, url }) {
   return (
-    <div className="bill" key={name}>
+    <div className={`bill ${budget ? "budget" : null}`} key={name}>
       <div className="bill__title">{name}</div>
       <div className="bill__price">{toMoney(price || priceEstimate)}</div>
       <div className="bill__link">
