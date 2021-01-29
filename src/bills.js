@@ -21,7 +21,7 @@ const bills = [
     name: "EnerBank USA",
     price: 209.54 * 2,
     autoPay: 0,
-    paycheck: 2,
+    paycheck: 1,
     url: "https://enerbankpayments.com/#/person/login/"
   },
   {
