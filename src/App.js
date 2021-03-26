@@ -5,9 +5,7 @@ import Switch from "react-ios-switch";
 
 const todaysDate = new Date().getDate();
 const overridePaycheck = window.location.href.match(/paycheck=(1|2)/i);
-const paycheckToShow =
-  (overridePaycheck && +overridePaycheck[1]) ||
-  (todaysDate < 12 || 26 < todaysDate) + 1;
+const paycheckToShow = (overridePaycheck && +overridePaycheck[1]) || (todaysDate < 12 || 26 < todaysDate) + 1;
 
 function toMoney(price) {
   return `$${price.toFixed(2)}`;
@@ -49,10 +47,12 @@ function Bill({ budget, name, price, priceEstimate, url }) {
   );
 }
 
-function getBillsForPaycheck(component) {
-  return bills
-    .filter(({ paycheck }) => paycheck === paycheckToShow)
-    .map(component);
+function getBillsForPaycheck() {
+  return bills.filter(({ paycheck }) => paycheck === paycheckToShow);
+}
+
+function renderBillsForPaycheck(component) {
+  return getBillsForPaycheck().map(component);
 }
 
 function App() {
@@ -63,13 +63,9 @@ function App() {
       <header className="App-header">
         <div className="textmode__field">
           <span className="textmode__label">Text Mode</span>
-          <Switch
-            checked={isTextMode}
-            onChange={() => setIsTextMode(!isTextMode)}
-            className="textmode__switch"
-          />
+          <Switch checked={isTextMode} onChange={() => setIsTextMode(!isTextMode)} className="textmode__switch" />
         </div>
-        {getBillsForPaycheck(isTextMode ? BillEntry : Bill)}
+        {renderBillsForPaycheck(isTextMode ? BillEntry : Bill)}
       </header>
     </div>
   );
