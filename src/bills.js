@@ -84,14 +84,6 @@ const bills = [
     day: 16,
   },
   {
-    name: "New York Times",
-    price: 40,
-    autoPay: 1,
-    paycheck: 1,
-    budget: 1,
-    day: 26,
-  },
-  {
     name: "JW.org",
     price: 100,
     autoPay: 1,
@@ -104,13 +96,6 @@ const bills = [
     autoPay: 1,
     paycheck: 2,
     day: 14,
-  },
-  {
-    name: "New England Coffee",
-    price: 33.16,
-    autoPay: 1,
-    paycheck: 1,
-    day: 28,
   },
   {
     name: "Adobe InDesign",
@@ -150,7 +135,7 @@ const bills = [
   },
   {
     name: "DigitalOcean",
-    price: 15.7,
+    price: 10.7,
     autoPay: 1,
     paycheck: 2,
     day: 28,
@@ -202,7 +187,7 @@ const bills = [
   },
   {
     name: "Arlo Smart",
-    price: 4.99,
+    price: 9.99,
     autoPay: 1,
     paycheck: 1,
     day: 14,
