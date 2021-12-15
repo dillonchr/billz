@@ -1,14 +1,15 @@
 body {
-  background-color: #282c34;
-  color: white;
-  font-size: 18px;
+  --primary-color: #11721f;
+  --secondary-color: #721164;
+  background-color: #efedd0;
+  color: var(--primary-color);
+  font-size: 16px;
   text-align: center;
 }
 
 .App-header {
-  padding-top: 2rem;
   margin: auto;
-  width: 66%;
+  width: 33%;
   padding: 1rem;
 }
 
@@ -16,12 +17,13 @@ body {
   align-items: center;
   display: flex;
   justify-content: stretch;
-  margin: 0.5rem;
+  margin: 0.25rem;
   padding: 0.5rem;
+  border-bottom: dotted 1px var(--primary-color);
 }
 
 .bill.budget {
-  color: gold;
+  color: var(--secondary-color);
 }
 
 .bill:nth-child(odd) {
@@ -31,13 +33,14 @@ body {
 .textmode__field {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-bottom: 2rem;
 }
 
 .textmode__label {
   font-family: monospace;
   font-size: 1rem;
+  margin-left: 1rem;
 }
 
 .textmode__switch {
@@ -46,30 +49,28 @@ body {
 .bill__title {
   flex: 1;
   text-align: left;
+  font-family: Georgia, serif;
 }
 
 .bill__price {
   flex: 1;
-  text-align: center;
-}
-
-.bill__link {
-  flex: 1;
   text-align: right;
+  font-family: Georgia, serif;
 }
 
-.bill__link a,
-.bill__link a:visited {
-  color: white;
+.bill__title a,
+.bill__title a:visited {
+  color: var(--primary-color);
 }
 
-.bill__link a:hover {
-  color: cyan;
+.bill__title a:hover {
+  color: var(--secondary-color);
 }
 
 .bill__textfield {
-  border: none;
+  border: dotted 1px var(--primary-color);
   display: block;
+  font-family: monospace;
   font-size: 18px;
   margin: 0.5rem;
   padding: 0.25rem;

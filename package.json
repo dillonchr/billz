@@ -6,7 +6,6 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-ios-switch": "^0.1.19",
     "react-scripts": "4.0.3"
   },
   "scripts": {

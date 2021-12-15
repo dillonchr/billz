@@ -1,23 +1,24 @@
 import React, { useState } from "react";
 import "./App.css";
 import bills from "./bills";
-import Switch from "react-ios-switch";
 
 const todaysDate = new Date().getDate();
 const overridePaycheck = window.location.href.match(/paycheck=(1|2)/i);
-const paycheckToShow = (overridePaycheck && +overridePaycheck[1]) || (todaysDate < 12 || 26 < todaysDate) + 1;
+const paycheckToShow =
+  (overridePaycheck && +overridePaycheck[1]) ||
+  (todaysDate < 12 || 26 < todaysDate) + 1;
 
 function toMoney(price) {
   return `$${price.toFixed(2)}`;
 }
 
-function BillLink({ url }) {
+function BillLink({ url, children }) {
   if (!url) {
     return null;
   }
   return (
     <a href={url} rel="noopener noreferrer" target="_blank">
-      Pay
+      {children}
     </a>
   );
 }
@@ -38,11 +39,10 @@ function BillEntry({ budget, name, price }) {
 function Bill({ budget, name, price, priceEstimate, url }) {
   return (
     <div className={`bill ${budget ? "budget" : null}`} key={name}>
-      <div className="bill__title">{name}</div>
-      <div className="bill__price">{toMoney(price || priceEstimate)}</div>
-      <div className="bill__link">
-        <BillLink url={url} />
+      <div className="bill__title">
+        {null != url ? <BillLink url={url}>{name}</BillLink> : name}
       </div>
+      <div className="bill__price">{toMoney(price || priceEstimate)}</div>
     </div>
   );
 }
@@ -62,8 +62,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="textmode__field">
-          <span className="textmode__label">Text Mode</span>
-          <Switch checked={isTextMode} onChange={() => setIsTextMode(!isTextMode)} className="textmode__switch" />
+          <input
+            type="checkbox"
+            checked={isTextMode}
+            onChange={e => setIsTextMode(e.currentTarget.checked)}
+          />
         </div>
         {renderBillsForPaycheck(isTextMode ? BillEntry : Bill)}
       </header>
