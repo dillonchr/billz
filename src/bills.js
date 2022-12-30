@@ -46,16 +46,10 @@ const bills = [
   },
   {
     name: "DigitalOcean",
-    price: 10.7,
+    price: 12.7,
     autoPay: 1,
     paycheck: 2,
     day: 28
-  },
-  {
-    name: "Disney+",
-    price: 6.99,
-    autoPay: 1,
-    paycheck: 2
   },
   {
     name: "Electric Bill",
@@ -111,7 +105,7 @@ const bills = [
   },
   {
     name: "Instacart Express",
-    price: 9.99,
+    price: 10.88,
     autoPay: 1,
     paycheck: 2,
     day: 14
@@ -124,27 +118,11 @@ const bills = [
     day: 4
   },
   {
-    name: "Packt Pub Sub",
-    price: 9.99,
-    autoPay: 1,
-    paycheck: 1,
-    budget: 1,
-    day: 19
-  },
-  {
     name: "JW.org",
     price: 100,
     autoPay: 1,
     paycheck: 1,
     day: 15
-  },
-  {
-    name: "Sapulpa Times",
-    price: 9.99,
-    autoPay: 1,
-    paycheck: 2,
-    budget: 1,
-    day: 28
   },
   {
     name: "State Farm",
@@ -155,17 +133,17 @@ const bills = [
   },
   {
     name: "Trash",
-    price: 21,
+    price: 24,
     autoPay: 1,
     paycheck: 1
   },
   {
-    name: "Wall Street Journal",
-    price: 29.99,
+    name: "Tulsa World",
+    price: 60.66,
     autoPay: 1,
-    paycheck: 1,
+    paycheck: 2,
     budget: 1,
-    day: 16
+    day: 27
   },
   {
     name: "VidAngel",
