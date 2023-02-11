@@ -52,7 +52,8 @@ function getBillsForPaycheck() {
 }
 
 function renderBillsForPaycheck(component) {
-  return getBillsForPaycheck().map(component);
+  const bills = getBillsForPaycheck();
+  return bills.map(component);
 }
 
 function App() {

@@ -11,6 +11,13 @@ const bills = [
     day: 11
   },
   {
+    name: "Heartworm meds",
+    price: 60.96,
+    autoPay: 1,
+    paycheck: 1,
+    day: 1
+  },
+  {
     name: "Arlo Smart",
     price: 9.99,
     autoPay: 1,
@@ -73,13 +80,6 @@ const bills = [
     autoPay: 1,
     paycheck: 2,
     day: 30
-  },
-  {
-    name: "Funimation",
-    price: 7.99,
-    paycheck: 2,
-    day: 11,
-    autoPay: 1
   },
   {
     name: "Gas Bill - ONG",
