@@ -98,7 +98,7 @@ const bills = [
   },
   {
     name: "House",
-    price: 970.79,
+    price: 1073.79,
     autoPay: 1,
     paycheck: 2,
     day: 11
@@ -111,13 +111,6 @@ const bills = [
     day: 14
   },
   {
-    name: "Netflix",
-    price: 15.49,
-    autoPay: 1,
-    paycheck: 2,
-    day: 4
-  },
-  {
     name: "JW.org",
     price: 100,
     autoPay: 1,
@@ -126,7 +119,7 @@ const bills = [
   },
   {
     name: "State Farm",
-    price: 80.08,
+    price: 88.40,
     autoPay: 1,
     paycheck: 1,
     day: 17
@@ -144,13 +137,6 @@ const bills = [
     paycheck: 2,
     budget: 1,
     day: 27
-  },
-  {
-    name: "VidAngel",
-    price: 9.99,
-    autoPay: 1,
-    paycheck: 2,
-    day: 1
   },
   {
     name: "Vivint Equipment",
@@ -173,7 +159,7 @@ const bills = [
   },
   {
     name: "YouTube Premium",
-    price: 14.99,
+    price: 22.99,
     autoPay: 1,
     paycheck: 2,
     day: 14
