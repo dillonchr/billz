@@ -9,11 +9,9 @@ Cox	119.99	2	y	n
 DigitalOcean	12.7	2	y	n	
 Electric Bill	100	2	n	n	https://psoklahoma.com/account/bills/
 EnerBank USA	422.04	1	y	n	https://enerbankpayments.com/#/person/login/
-Twitch Turbo	8.99	2	y	n	
 Gas Bill - ONG	50	2	n	n	https://www.oklahomanaturalgas.com/
 Github	4	2	y	n	
 House	1073.79	2	y	n	
-Instacart Express	10.88	2	y	n	
 JW.org	100	1	y	n	
 State Farm	88.4	1	y	n	
 Trash	24	1	y	n	

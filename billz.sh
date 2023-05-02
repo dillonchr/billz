@@ -8,7 +8,7 @@ PAYCHECK=$((( $(date "+%d") < 12 || 26 < $(date "+%d") )) && echo "2" || echo "1
 # ./billz.sh | sort -rn -t $'\t'
 
 # get each autopay bill for the shared paycheck
-sleep 1
+sleep 3
 tput bel
 sleep 0.3
 tput bel
@@ -20,7 +20,7 @@ awk "BEGIN{FS=\"\t\"} \$3 ~ /${PAYCHECK}/ && \$4 ~ /y/ && \$5 ~ /n/ {printf \"%7
   while read bill; do
     echo "$bill" | tee >(pbcopy)
     tput bel
-    sleep 1
+    sleep 3
   done
 
 
@@ -29,7 +29,7 @@ awk "BEGIN{FS=\"\t\"} \$3 ~ /${PAYCHECK}/ && \$5 ~ /y/ {printf \"budget %s, %s\n
   while read bill; do
     echo "$bill" | tee >(pbcopy)
     tput bel
-    sleep 1
+    sleep 3
   done
 
 
