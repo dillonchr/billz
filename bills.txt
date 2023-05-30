@@ -16,7 +16,6 @@ JW.org	100	1	y	n
 State Farm	88.4	1	y	n	
 Trash	24	1	y	n	
 Tulsa World	60.66	2	y	y	
-Twitch Turbo	8.99	2	y	n	
 Vivint Equipment	26.92	1	y	n	
 Vivint Service	47.14	1	y	n	
 Water Bill	60	2	n	n	https://www.municipalonlinepayments.com/bixbyok/utilities
