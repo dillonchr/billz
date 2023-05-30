@@ -14,7 +14,9 @@ sleep 0.3
 tput bel
 sleep 0.3
 tput bel
-sleep 1
+echo "get ready!"
+sleep 2
+echo "go!"
 
 awk "BEGIN{FS=\"\t\"} \$3 ~ /${PAYCHECK}/ && \$4 ~ /y/ && \$5 ~ /n/ {printf \"%7s, %s\n\", \$2, \$1}" bills.txt | IFS='' cat - |
   while read bill; do
