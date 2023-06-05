@@ -5,7 +5,7 @@ BarkBox	27.23	2	y	n
 Chewy	72.72	2	y	n	
 Cox	119.99	2	y	n	
 Crunch Fitness	34.54	2	y	n	
-DigitalOcean	12.7	2	y	n	
+DigitalOcean	6.5	2	y	n	
 Electric Bill	100	2	n	n	https://psoklahoma.com/account/bills/
 EnerBank USA	422.04	1	y	n	https://enerbankpayments.com/#/person/login/
 Gas Bill - ONG	50	2	n	n	https://www.oklahomanaturalgas.com/
