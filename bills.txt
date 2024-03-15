@@ -13,10 +13,9 @@ Github	4	2	y	n
 Heartworm meds	60.96	1	y	n	
 House	1073.79	2	y	n	
 JW.org	100	1	y	n	
-Paramount+	5.99	1	y	n	
 State Farm	143.53	1	y	n	
 Trash	24	1	y	n	
-Tulsa World	60.66	2	y	y	
+NYTimes	20	2	y	y	
 Vivint Equipment	26.92	1	y	n	
 Vivint Service	47.14	1	y	n	
 Water Bill	60	2	n	n	https://www.municipalonlinepayments.com/bixbyok/utilities
