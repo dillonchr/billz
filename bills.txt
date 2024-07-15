@@ -14,7 +14,7 @@ Heartworm meds	60.96	1	y	n
 House	1073.79	2	y	n	
 JW.org	100	1	y	n	
 State Farm	143.53	1	y	n	
-Trash	24	1	y	n	
+Trash	31	1	y	n	
 NYTimes	20	2	y	y	
 Vivint Service	47.14	1	y	n	
 Water Bill	60	2	n	n	https://www.municipalonlinepayments.com/bixbyok/utilities
