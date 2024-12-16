@@ -15,7 +15,7 @@ House	1073.79	2	y	n
 JW.org	100	1	y	n	
 State Farm	143.53	1	y	n	
 Trash	31	1	y	n	
-NYTimes	20	2	y	y	
+NYTimes	20	2	y	n	
 Vivint Service	47.14	1	y	n	
 Water Bill	60	2	n	n	https://www.municipalonlinepayments.com/bixbyok/utilities
 White Car	583.91	1	y	n	
